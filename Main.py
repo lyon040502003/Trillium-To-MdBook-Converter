@@ -4,7 +4,7 @@ import shutil
 from functions.converter import generate_summary_file
 
 command = input()
-# command = "/home/lyonh/Downloads/micro_usd_pipline, trillium-Book, /home/lyonh/Documents"
+# command = "/home/lyonh/Downloads/micro_usd_pipline, micro_usd_pipline, /home/lyonh/Documents"
 
 path_to_trillium_export = command.split(",")[0]
 book_name = command.split(",")[-2].replace(" ", "")
